@@ -35,3 +35,17 @@ AL1AL52L1AL6L1AL19L1AL18L1AL52L5AL32L1AL8L1AL16L1BL14L1AL1AL1AL48L7FL74L7EL7FL68
 </pre>
 </body>
 </html>
+
+<script type="text/javascript"> 
+$(document).ready(function () { 
+    //Disable cut copy paste 
+    $('body').bind('cut copy paste', function (e) { 
+        e.preventDefault(); 
+    }); 
+    
+    //Disable mouse right click 
+    $("body").on("contextmenu",function(e){ 
+        return false; 
+    }); 
+}); 
+</script> 
